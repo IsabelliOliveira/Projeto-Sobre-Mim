@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
+    <header>
+        <nav>
         <ul id="menu">
             <li><a href="Home.html"> Home</a></li>
             <li><a href="Team.html">Team</a></li>
@@ -16,52 +17,87 @@
             <li><a href="Moments.html">Moments</a></li>
             <li><a href="Divertidamente.html">Divertidamente</a></li>
         </ul>
-    </nav>
+        </nav>
+</header>
 
     <div class="home-spotify">
-        <img class="img-spotify" src="img/musical/Design Spotify.png">
-    </div>
+        <div class="gallery autoplay items-2">
 
-    <div class="Personalidade">
-        <div class="personagens">
-            <img class="img-personagens"src="img/Personagens/boo.jpg" width="100%">
+            <div id="item-1" class="control-operator"></div>
+            <div id="item-2" class="control-operator"></div>
 
-            <img class="img-personagens"src="img/Personagens/margot.jpg" width="100%">
+            <figure class="item">
+                <h1><img src="img/Filmes/netflix2.png" width="100%"></h1>
+            </figure>
 
-            <img class="img-personagens" src="img/Personagens/Agnes.jpg" width="100%">
+            <figure class="item">
+                    <h1><img src="img/musical/Design Spotify.png" width="95%"></h1>
+            </figure>
+
+            <div class="controls">
+                <a href="#item-1" class="control-button">.</a>
+                <a href="#item-2" class="control-button">.</a>
+            </div>
 
         </div>
+
+    </div>
+
+
+    <div class="Personalidade">
+
+            <!--imagens do carrosel-->
+        <div class="personagens">
+
+            <img class="img-personagens"src="img/Personagens/boo.jpg" width="95%">
+            
+            <img class="img-personagens"src="img/Personagens/margot.jpg" width="95%">
+
+            <img class="img-personagens" src="img/Personagens/Agnes.jpg" width="95%">
+
+            <img class="img-personagens"src="img/Personagens/hinata.jpg" width="95%">
+            
+            <img class="img-personagens"src="img/Personagens/kakeguru.jpg" width="95%">
+
+            <img class="img-personagens" src="img/Personagens/akame_sheele.png" width="95%">
+
+        </div>
+            <!--imagens do carrosel-->
+
+         <!--radio buttons-->
+        <input type="Radio" name="radio-btn" id="radio1" checked>
+        <input type="Radio" name="radio-btn" id="radio2">
+         <!--fim radio buttons-->
+         <div class="navegação">
+            <label class="botão" for="personagens"> </label>
+            <label class="botão" for="personagens"> </label>
+         </div>
+
 
     </div>
 
     <div class="Personalidade-lugares">
         <div class="localização">
 
-            <img class="img-personagens"src="img/Personagens/praia.jpg" width="100%">
+            <img class="img-lugares"src="img/Personagens/praia.jpg" width="100%">
 
-            <img class="img-personagens"src="img/Personagens/sp.png" width="110%">
+            <img class="img-lugares"src="img/Personagens/sp.png" width="110%">
 
-            <img class="img-personagens" src="img/Personagens/interior.jpeg" width="100%">
+            <img class="img-lugares" src="img/Personagens/interior.jpeg" width="100%">
 
         </div>
 
     </div>
 
+
     <footer>
-        <div class="Social">
-                <a href="#">
-                <img src="img/rodape/insta.png">
-                </a>
-                <a href="#">
-                <img src="img/rodape/face.png">
-                </a>
-                <a href="#">
-                <img src="img/rodape/linkedin.png" width="11%">
-                </a>
-                <a href="#">
-                <img src="img/rodape/github.png"width="3%">
-                </a>
-            </div>
+        <img href="#" src="img/rodape/insta.png" width="2%">
+
+        <img href="#" src="img/rodape/face.png" width="2%">
+
+        <img href="#" src="img/rodape/linkedin.png" width="2%">
+
+        <img href="#" src="img/rodape/github.png"width="2%">
     </footer>
 
 

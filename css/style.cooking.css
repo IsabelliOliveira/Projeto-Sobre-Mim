@@ -1,0 +1,136 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: antiquewhite;
+}
+
+#menu{
+    list-style-type: none;
+    background: linear-gradient(180deg, rgb(250, 161, 45) 0%, rgb(250, 216, 172) 41.15%,antiquewhite 100%);
+    padding: 0 ;
+    text-align: center;
+}
+
+#menu li{
+    display: inline;
+    
+}
+
+#menu li a {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+#menu li a:hover{
+    color: rgb(255, 145, 0);
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    padding: 4% 2%;
+    box-sizing: border-box;
+    height: 100vh;
+  }
+  
+  .box {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+    box-shadow: 0 20px 30px rgba(0,0,0,.1);
+    line-height: 0;
+  }
+  
+  .box > img {
+    width: 200%;
+    height: calc(100% - 10vh);
+    object-fit: cover; 
+    transition: .5s;
+  }
+  
+  .box > span {
+    font-size: 3.8vh;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 2.6;
+  }
+  
+  .box:hover { flex: 1 1 50%; }
+  .box:hover > img {
+    width: 100%;
+    height: 90%;
+  }
+
+  a{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(255, 189, 6);
+}
+
+.container-f{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+
+.footer{
+	background-color: #24262b;
+  padding: 70px ;
+  margin-top: 50px;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+}
+

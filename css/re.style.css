@@ -1,0 +1,152 @@
+body{
+  background-image: url('https://static.vecteezy.com/ti/fotos-gratis/p1/1959920-turva-ocupado-restaurante-fundo-gr%C3%A1tis-foto.JPG');
+  background-size: 100% ;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu{
+  list-style-type: none;
+  padding: 0 ;
+  text-align: center;
+}
+
+#menu li{
+  display: inline;
+  
+}
+
+#menu li a {
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+
+}
+
+#menu li a:hover{
+
+  color: rgb(216, 194, 0);
+}
+
+h2{
+  font-family: Inria Serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+img{
+  justify-items: center;
+  border-radius: 19px 19px 0 0;
+  margin: 0 5% 0 5% ;
+}
+
+.tata{
+  background-color: white;
+  color: #000000 ;
+  margin: 0 5% 0 5% ;
+  border-radius: 0  0 19px 19px;
+  padding: 20px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.chitãozinho{
+  background-color: white;
+  color: #000000 ;
+  margin: 0 5% 0 5% ;
+  border-radius: 0  0 19px 19px;
+  padding: 20px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.bts{
+  background-color: white;
+  color: #000000 ;
+  margin: 0 5% 0 5% ;
+  border-radius: 0  0 19px 19px;
+  padding: 20px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.caze{
+  background-color: white;
+  color: #000000 ;
+  margin: 0 5% 0 5% ;
+  border-radius: 0  0 19px 19px;
+  padding: 20px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.Hamilton{
+  background-color: white;
+  color: #000000 ;
+  margin: 0 5% 0 5% ;
+  border-radius: 0  0 19px 19px;
+  padding: 20px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.muzi{
+  background-color: white;
+  color: #000000 ;
+  margin: 0 5% 0 5% ;
+  border-radius: 0  0 19px 19px;
+  padding: 20px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.container-f{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+
+.footer{
+	background-color: #24262b;
+  padding: 70px ;
+  margin-top: 50px;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+}
+

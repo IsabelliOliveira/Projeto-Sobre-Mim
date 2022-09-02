@@ -140,7 +140,7 @@
   transform: translateY(200px);
   transition-delay: 0.4s;
 }
-.container.box:hover .content p {
+.container .box:hover .content p {
   transform: translateY(0px);
 }
 
@@ -188,4 +188,3 @@ ul{
 	height: 40px;
 	width: 40px;
 }
-

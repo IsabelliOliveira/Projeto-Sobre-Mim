@@ -2,7 +2,7 @@
 ![O que você ouve, na verdade é que o você é  (1)](https://user-images.githubusercontent.com/104120168/191619539-38b8ce48-5b2a-4a2e-b13f-9be87f9e30f8.jpg)
 
 <h1 align="center">
-    <a href="https://www.figma.com/file/EmaRjVjCzBKDDWEyyctgFE/Untitled?node-id=1%3A2">🔗Sobre Mim</a>
+    <a href="https://isabellioliveira.github.io/Projeto-Sobre-Mim/">🔗Sobre Mim</a>
 </h1>
 <p align="center"> Bem vindo à minha vida!</p>
 <p align="center"> Essa atividade é um resumo de tudo que sempre pregamos no PROA: a tecnologia como uma ferramenta, não como destino. Essa atividade é para que o usuario conheça mais sobre mim, utilizei tudo o que você já vi em aula e alguns conhecimentos além.

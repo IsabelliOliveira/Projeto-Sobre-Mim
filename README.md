@@ -5,7 +5,7 @@
     <a href="https://isabellioliveira.github.io/Projeto-Sobre-Mim/">🔗Sobre Mim</a>
 </h1>
 <p align="center"> Bem vindo à minha vida!</p>
-<p align="center"> Essa atividade é um resumo de tudo que sempre pregamos no PROA: a tecnologia como uma ferramenta, não como destino. Essa atividade é para que o usuario conheça mais sobre mim, utilizei tudo o que você já vi em aula e alguns conhecimentos além.
+<p align="center"> Essa atividade é um resumo de tudo que sempre pregamos no PROA: a tecnologia como uma ferramenta, não como destino. Essa atividade é para que o usuario me conheça, utilizei tudo o que você já vi em aula e alguns conhecimentos além.
  </p>
 
 <p align="center">
@@ -30,3 +30,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [HTML5](#)
 - [CSS3](#)
 - [JAVASCRIPT](#)
+
